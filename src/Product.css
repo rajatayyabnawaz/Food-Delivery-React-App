@@ -1,0 +1,118 @@
+/* Product.css */
+
+.product-detail-page {
+    background-color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-detail-card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .product-detail-card img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    max-width: 500px; /* You can limit the max-width to prevent it from stretching too much */
+    object-fit: cover; /* Will ensure the image fills the container while maintaining its aspect ratio */
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  .product-detail-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-detail-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-detail-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #444;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b12704;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #777;
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+  
+  /* Size Options Section */
+  .size-options {
+    margin-top: 20px;
+  }
+  
+  .size-options p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .size-boxes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .size-box {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .size-box:hover {
+    background-color: #ff9900;
+    border-color: #ff9900;
+    color: white;
+  }
+  
+  .size-box:active {
+    background-color: #e68a00;
+    border-color: #e68a00;
+  }
+  
+  .add-to-cart-btn {
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e68a00;
+  }
+  
